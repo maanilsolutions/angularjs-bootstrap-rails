@@ -1,6 +1,6 @@
-# Angularjs::Bootstrap::Rails
+# Angularjs Bootstrap rails wrapper
 
-TODO: Write a gem description
+Wrapper for Angular Bootstrap to use in Ruby on Rails applications. You can find examples of usage [here](http://angular-ui.github.io/bootstrap/)
 
 ## Installation
 
@@ -12,13 +12,27 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Add to your applications.js following lines of code:
 
-    $ gem install angularjs-bootstrap-rails
+```javascript
+//= require angular/ui-bootstrap-tpls
+
+angular.module('appName', ['ui.bootstrap']);
+```
+
+where **appName** is application name you've defined in
+
+```
+html ng-app="appName"
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Examples of usage can be found [here](http://angular-ui.github.io/bootstrap/)
+
+## TODO
+
+* add generators for templates
 
 ## Contributing
 

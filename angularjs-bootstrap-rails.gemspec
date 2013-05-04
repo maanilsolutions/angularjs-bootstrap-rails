@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'angularjs/bootstrap/rails/version'
+require 'angularjs-bootstrap-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "angularjs-bootstrap-rails"
-  spec.version       = Angularjs::Bootstrap::Rails::VERSION
+  spec.version       = AngularjsBootstrapRails::VERSION
   spec.authors       = ["Alexey Poimtsev"]
   spec.email         = ["alec@alec-c4.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = "Wrapper for Angular Bootstrap"
+  spec.summary       = "Wrapper for Angular Bootstrap to use in Ruby on Rails applications"
+  spec.homepage      = "https://github.com/alec-c4/angularjs-bootstrap-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
